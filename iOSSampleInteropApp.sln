@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSSampleInteropApp", "iOSSampleInteropApp\iOSSampleInteropApp.csproj", "{20832C0E-B0E0-4938-86F5-6FCA3B0CE1AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20832C0E-B0E0-4938-86F5-6FCA3B0CE1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20832C0E-B0E0-4938-86F5-6FCA3B0CE1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20832C0E-B0E0-4938-86F5-6FCA3B0CE1AB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{20832C0E-B0E0-4938-86F5-6FCA3B0CE1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20832C0E-B0E0-4938-86F5-6FCA3B0CE1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20832C0E-B0E0-4938-86F5-6FCA3B0CE1AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B91B570-68E4-4753-A6E0-CCFDE7C6A1F8}
+	EndGlobalSection
+EndGlobal
