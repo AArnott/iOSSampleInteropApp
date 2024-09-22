@@ -14,6 +14,8 @@ namespace iOSSampleInteropApp
 			// create a new window instance based on the screen size
 			Window = new UIWindow(UIScreen.MainScreen.Bounds);
 
+			bool result = Nerdbank.QRCodes.QRDecoder.TryDecode(new byte[3], out string? foo);
+
 			// create a UIViewController with a single UILabel
 			var vc = new UIViewController();
 			vc.View!.AddSubview(new UILabel(Window!.Frame)

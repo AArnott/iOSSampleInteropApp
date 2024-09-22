@@ -7,6 +7,11 @@
     <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Nerdbank.QRCodes" Version="0.2.50-beta" />
+    <PackageReference Include="Nerdbank.QRCodes" Version="0.2.55-beta-g209a879921" />
   </ItemGroup>
+  <!--<ItemGroup>
+    <NativeReference Include="D:\packages\nuget\nerdbank.qrcodes\0.2.54-beta-gbb02ddce01\runtimes\ios-universal\native\nerdbank_qrcodes.xcframework">
+      <Kind>Framework</Kind>
+    </NativeReference>
+  </ItemGroup>-->
 </Project>
