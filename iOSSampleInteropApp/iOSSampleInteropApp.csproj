@@ -1,17 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-ios</TargetFramework>
+    <TargetFramework>net8.0-ios17.5</TargetFramework>
     <OutputType>Exe</OutputType>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
-    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Nerdbank.QRCodes" Version="0.2.56-beta-gfe0b3ab0df" />
+    <PackageReference Include="Nerdbank.Zcash" Version="0.3.166-beta" />
   </ItemGroup>
-  <!--<ItemGroup>
-    <NativeReference Include="D:\packages\nuget\nerdbank.qrcodes\0.2.54-beta-gbb02ddce01\runtimes\ios-universal\native\nerdbank_qrcodes.xcframework">
-      <Kind>Framework</Kind>
-    </NativeReference>
-  </ItemGroup>-->
 </Project>

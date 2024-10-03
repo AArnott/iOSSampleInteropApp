@@ -1,3 +1,6 @@
+using Nerdbank.Bitcoin;
+using Nerdbank.Zcash;
+
 namespace iOSSampleInteropApp
 {
 	[Register("AppDelegate")]
@@ -14,7 +17,14 @@ namespace iOSSampleInteropApp
 			// create a new window instance based on the screen size
 			Window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-			bool result = Nerdbank.QRCodes.QRDecoder.TryDecode(new byte[3], out string? foo);
+			try
+			{
+				ZcashAccount account = new(new Zip32HDWallet(Bip39Mnemonic.Create(256), ZcashNetwork.MainNet));
+			}
+			catch (InvalidOperationException)
+			{
+				// Expected, since we didn't provide a valid image.
+			}
 
 			// create a UIViewController with a single UILabel
 			var vc = new UIViewController();
