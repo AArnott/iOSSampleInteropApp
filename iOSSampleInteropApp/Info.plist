@@ -5,7 +5,7 @@
     <key>CFBundleDisplayName</key>
     <string>iOSSampleInteropApp</string>
     <key>CFBundleIdentifier</key>
-    <string>com.companyname.iOSSampleInteropApp</string>
+	<string>net.ironpigeon.ezcash</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>
